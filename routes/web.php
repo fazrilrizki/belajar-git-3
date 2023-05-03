@@ -13,11 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/welcome2', function () {
-    return view('welcome2');
+Route::get('/', function () {
+    return ['foo' => 'bar'];
 });
 
-Route::get('/welcome', function () {
-    return view('welcome');
-});
 
